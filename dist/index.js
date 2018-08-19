@@ -79,6 +79,8 @@ var _cors2 = _interopRequireDefault(_cors);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+require('dotenv').config();
+
 var port = process.env.PORT || 4000;
 var graphQlServer = (0, _express2.default)();
 
