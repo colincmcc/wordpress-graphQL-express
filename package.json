@@ -1,7 +1,7 @@
 {
   "name": "iph-graphql",
   "version": "1.0.0",
-  "description": "GraphQL Server for WordPress backend",
+  "description": "GraphQL Server for Multiple API's",
   "dependencies": {
     "apollo-server": "^2.0.4",
     "apollo-server-express": "^2.0.3",
