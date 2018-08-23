@@ -10,8 +10,6 @@ var dev = exports.dev = {
 
 };
 
-var prod = exports.prod = {
-  graphQLEndpoint: "https://iph.colinmac.me/graphql/",
-  wpEndpoint: "https://iph.colinmac.me/wp-json/wp/v2",
-  websiteHome: "https://iph.colinmac.me"
-};
+var prod = exports.prod = { graphQLEndpoint: "https://iph.colinmac.me/graphql/",
+  wpEndpoint: "https://iph.colinmac.me/wp-json/wp/v2", websiteHome: "https://iph.colinmac.me",
+  coinbaseCommerceUrl: "https://api.commerce.coinbase.com" };
